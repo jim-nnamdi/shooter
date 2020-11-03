@@ -1,6 +1,6 @@
 # Shooter template
 
-[Shooter](https://github.com/jim-nnamdi/shooter) is a template developed in bootstrap for specifically company auctions, and it enables developers to scaffold any project that has to do with auctions easily, facing the technical side of things while the frontend is already set for usage.inspired by [Laravel spark](https://spark.laravel.com/).
+[Shooter](https://github.com/jim-nnamdi/shooter) is a minimalistic template developed in bootstrap for specifically company auctions, and it enables developers to scaffold any project that has to do with auctions easily, facing the technical side of things while the frontend is already set for usage.inspired by [Laravel spark](https://spark.laravel.com/).
 
 ## Usage
 
