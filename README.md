@@ -1,6 +1,6 @@
 # Shooter template
 
-[Shooter](https://startbootstrap.com/templates/shop-homepage/) is a basic template for anytype of development inspired by [Laravel spark](https://spark.laravel.com/).
+[Shooter](https://github.com/jim-nnamdi/shooter) is a basic template for anytype of development inspired by [Laravel spark](https://spark.laravel.com/).
 
 ## Usage
 
