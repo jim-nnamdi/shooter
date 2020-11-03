@@ -12,7 +12,7 @@
   background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
 }
-.image_inner_container img {
+.image_inner_coantainer img {
   height: 60px;
   width: 60px;
   border-radius: 50%;
