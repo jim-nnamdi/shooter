@@ -16,7 +16,22 @@
   <!-- Custom styles for this template -->
   <link href="css/shop-homepage.css" rel="stylesheet">
   <link href="css/profileimage.css" rel="stylesheet">
-
+  <style>
+    @font-face {
+     font-family: all;
+     src: url("fonts/Cerebri\ Sans\ Bold.woff")format('woff');
+   }
+   
+   @font-face {
+     font-family: alli;
+     src: url("fonts/AvenirLTStd-Book.woff")format('woff2');
+   }
+   
+   * {
+     font-family: alli;
+   }
+   .wbold{font-family: all;}
+   </style>
 </head>
 
 <body>
@@ -39,7 +54,7 @@
             <a class="nav-link" href="profile.html">Company sign-up</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">All Auctions</a>
+            <a class="nav-link" href="#">Create auctions</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -60,7 +75,7 @@
     </div>
   </div>
   <div class="container">
-    <div class="card mt-5 mb-5 border-5 pt-2 active pb-0 px-3" style="border:0px; border-bottom: 0px;border-radius:10px">
+    <div class="card mb-2 border-5 pt-2 active pb-0 px-3" style="border:0px; border-bottom: 0px;border-radius:10px">
         <div class="card-body ">
             <div class="row">
               <div class="container">
@@ -74,7 +89,7 @@
                 </div>
               </div>
                 <div class="col-12 d-flex">
-                    <h4 class="card-title "><b>Ogadonate profile</b></h4>
+                    <h4 class="card-title "><b class="wbold">Ogadonate profile</b></h4>
                 </div>
                 <div class="col">
                     <h6 class="card-subtitle mb-2 text-muted">
@@ -107,6 +122,7 @@
                 </div>
               </div>
             </div>
+            <!-- modal end-->
             </div>
         </div>
         <div class="card-footer bg-white px-0" style="border-top:0px !important">
@@ -117,16 +133,16 @@
 
                 <!-- start employee entry-->
                 <div class="col-md-12" style="padding-right: 0px;padding-left:0px; border-radius:0px !important">
+
+
+            <p class="text-justify mt-4 mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum fugit dolorum illo sit dicta fugiat ex expedita vero, eveniet, placeat distinctio est unde. Sint quod dolore numquam expedita dolores officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, molestiae accusamus. Distinctio dolorum qui omnis incidunt, tenetur similique quod optio obcaecati doloremque recusandae esse at in quam provident, dolor temporibus?
+            </p>
                 <div class="list-group mt-3">
-                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f1f8ff; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f8fafd; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">
-                        <svg class="sidebar-options-img" width="20px" height="20px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="page-settings" fill-rule="nonzero">
-<path class="both-d-o not-custom-fill" d="M16,0 C20.418278,0 24,3.581722 24,8 L24,16 C24,20.418278 20.418278,24 16,24 L8,24 C3.581722,24 0,20.418278 0,16 L0,8 C0,3.581722 3.581722,0 8,0 L16,0 Z" id="Path" fill="#6E6D7A"></path>
-<path class="light-svg" d="M16,2 L8,2 C4.76160306,2 2.12242824,4.56557489 2.00413847,7.77506174 L2,8 L2,16 C2,19.2383969 4.56557489,21.8775718 7.77506174,21.9958615 L8,22 L16,22 C19.2383969,22 21.8775718,19.4344251 21.9958615,16.2249383 L22,16 L22,8 C22,4.76160306 19.4344251,2.12242824 16.2249383,2.00413847 L16,2 Z" id="Path" fill="#FFFFFF"></path>
-<path class="both-d-o both-d-l" d="M12,12.5 C15.3137085,12.5 18,14.2412037 18,16.3890873 C18,18.5369709 6,18.5369709 6,16.3890873 C6,14.2412037 8.6862915,12.5 12,12.5 Z" id="Path" fill="#6E6D7A"></path>
-<path class="both-d-o both-d-l" d="M12.25,6 C13.7687831,6 15,7.23121694 15,8.75 C15,10.2687831 13.7687831,11.5 12.25,11.5 C10.7312169,11.5 9.5,10.2687831 9.5,8.75 C9.5,7.23121694 10.7312169,6 12.25,6 Z" id="Path" fill="#6E6D7A"></path></g></g>
-</svg>
+                        <img src="images/user.jpeg" class="rounded-circle" width="50px" height="50px""/>
                          metro kein
                       </h5>
                       <small>3 days ago</small>
@@ -134,15 +150,10 @@
                     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                     <small>Donec id elit non mi porta.</small>
                   </a>
-                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f1f8ff; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f8fafd; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">
-                        <svg class="sidebar-options-img" width="20px" height="20px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="page-settings" fill-rule="nonzero">
-<path class="both-d-o not-custom-fill" d="M16,0 C20.418278,0 24,3.581722 24,8 L24,16 C24,20.418278 20.418278,24 16,24 L8,24 C3.581722,24 0,20.418278 0,16 L0,8 C0,3.581722 3.581722,0 8,0 L16,0 Z" id="Path" fill="#6E6D7A"></path>
-<path class="light-svg" d="M16,2 L8,2 C4.76160306,2 2.12242824,4.56557489 2.00413847,7.77506174 L2,8 L2,16 C2,19.2383969 4.56557489,21.8775718 7.77506174,21.9958615 L8,22 L16,22 C19.2383969,22 21.8775718,19.4344251 21.9958615,16.2249383 L22,16 L22,8 C22,4.76160306 19.4344251,2.12242824 16.2249383,2.00413847 L16,2 Z" id="Path" fill="#FFFFFF"></path>
-<path class="both-d-o both-d-l" d="M12,12.5 C15.3137085,12.5 18,14.2412037 18,16.3890873 C18,18.5369709 6,18.5369709 6,16.3890873 C6,14.2412037 8.6862915,12.5 12,12.5 Z" id="Path" fill="#6E6D7A"></path>
-<path class="both-d-o both-d-l" d="M12.25,6 C13.7687831,6 15,7.23121694 15,8.75 C15,10.2687831 13.7687831,11.5 12.25,11.5 C10.7312169,11.5 9.5,10.2687831 9.5,8.75 C9.5,7.23121694 10.7312169,6 12.25,6 Z" id="Path" fill="#6E6D7A"></path></g></g>
-</svg>
+                        <img src="images/user.jpeg" class="rounded-circle" width="50px" height="50px""/>
                          metro kein
                       </h5>
                       <small>3 days ago</small>
@@ -150,15 +161,10 @@
                     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                     <small>Donec id elit non mi porta.</small>
                   </a>
-                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f1f8ff; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f8fafd; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">
-                        <svg class="sidebar-options-img" width="20px" height="20px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="page-settings" fill-rule="nonzero">
-<path class="both-d-o not-custom-fill" d="M16,0 C20.418278,0 24,3.581722 24,8 L24,16 C24,20.418278 20.418278,24 16,24 L8,24 C3.581722,24 0,20.418278 0,16 L0,8 C0,3.581722 3.581722,0 8,0 L16,0 Z" id="Path" fill="#6E6D7A"></path>
-<path class="light-svg" d="M16,2 L8,2 C4.76160306,2 2.12242824,4.56557489 2.00413847,7.77506174 L2,8 L2,16 C2,19.2383969 4.56557489,21.8775718 7.77506174,21.9958615 L8,22 L16,22 C19.2383969,22 21.8775718,19.4344251 21.9958615,16.2249383 L22,16 L22,8 C22,4.76160306 19.4344251,2.12242824 16.2249383,2.00413847 L16,2 Z" id="Path" fill="#FFFFFF"></path>
-<path class="both-d-o both-d-l" d="M12,12.5 C15.3137085,12.5 18,14.2412037 18,16.3890873 C18,18.5369709 6,18.5369709 6,16.3890873 C6,14.2412037 8.6862915,12.5 12,12.5 Z" id="Path" fill="#6E6D7A"></path>
-<path class="both-d-o both-d-l" d="M12.25,6 C13.7687831,6 15,7.23121694 15,8.75 C15,10.2687831 13.7687831,11.5 12.25,11.5 C10.7312169,11.5 9.5,10.2687831 9.5,8.75 C9.5,7.23121694 10.7312169,6 12.25,6 Z" id="Path" fill="#6E6D7A"></path></g></g>
-</svg>
+                        <img src="images/user.jpeg" class="rounded-circle" width="50px" height="50px""/>
                          metro kein
                       </h5>
                       <small>3 days ago</small>
@@ -166,15 +172,10 @@
                     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                     <small>Donec id elit non mi porta.</small>
                   </a>
-                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f1f8ff; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f8fafd; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">
-                        <svg class="sidebar-options-img" width="20px" height="20px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="page-settings" fill-rule="nonzero">
-<path class="both-d-o not-custom-fill" d="M16,0 C20.418278,0 24,3.581722 24,8 L24,16 C24,20.418278 20.418278,24 16,24 L8,24 C3.581722,24 0,20.418278 0,16 L0,8 C0,3.581722 3.581722,0 8,0 L16,0 Z" id="Path" fill="#6E6D7A"></path>
-<path class="light-svg" d="M16,2 L8,2 C4.76160306,2 2.12242824,4.56557489 2.00413847,7.77506174 L2,8 L2,16 C2,19.2383969 4.56557489,21.8775718 7.77506174,21.9958615 L8,22 L16,22 C19.2383969,22 21.8775718,19.4344251 21.9958615,16.2249383 L22,16 L22,8 C22,4.76160306 19.4344251,2.12242824 16.2249383,2.00413847 L16,2 Z" id="Path" fill="#FFFFFF"></path>
-<path class="both-d-o both-d-l" d="M12,12.5 C15.3137085,12.5 18,14.2412037 18,16.3890873 C18,18.5369709 6,18.5369709 6,16.3890873 C6,14.2412037 8.6862915,12.5 12,12.5 Z" id="Path" fill="#6E6D7A"></path>
-<path class="both-d-o both-d-l" d="M12.25,6 C13.7687831,6 15,7.23121694 15,8.75 C15,10.2687831 13.7687831,11.5 12.25,11.5 C10.7312169,11.5 9.5,10.2687831 9.5,8.75 C9.5,7.23121694 10.7312169,6 12.25,6 Z" id="Path" fill="#6E6D7A"></path></g></g>
-</svg>
+                        <img src="images/user.jpeg" class="rounded-circle" width="50px" height="50px""/>
                          metro kein
                       </h5>
                       <small>3 days ago</small>
@@ -182,15 +183,10 @@
                     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                     <small>Donec id elit non mi porta.</small>
                   </a>
-                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f1f8ff; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f8fafd; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">
-                        <svg class="sidebar-options-img" width="20px" height="20px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="page-settings" fill-rule="nonzero">
-<path class="both-d-o not-custom-fill" d="M16,0 C20.418278,0 24,3.581722 24,8 L24,16 C24,20.418278 20.418278,24 16,24 L8,24 C3.581722,24 0,20.418278 0,16 L0,8 C0,3.581722 3.581722,0 8,0 L16,0 Z" id="Path" fill="#6E6D7A"></path>
-<path class="light-svg" d="M16,2 L8,2 C4.76160306,2 2.12242824,4.56557489 2.00413847,7.77506174 L2,8 L2,16 C2,19.2383969 4.56557489,21.8775718 7.77506174,21.9958615 L8,22 L16,22 C19.2383969,22 21.8775718,19.4344251 21.9958615,16.2249383 L22,16 L22,8 C22,4.76160306 19.4344251,2.12242824 16.2249383,2.00413847 L16,2 Z" id="Path" fill="#FFFFFF"></path>
-<path class="both-d-o both-d-l" d="M12,12.5 C15.3137085,12.5 18,14.2412037 18,16.3890873 C18,18.5369709 6,18.5369709 6,16.3890873 C6,14.2412037 8.6862915,12.5 12,12.5 Z" id="Path" fill="#6E6D7A"></path>
-<path class="both-d-o both-d-l" d="M12.25,6 C13.7687831,6 15,7.23121694 15,8.75 C15,10.2687831 13.7687831,11.5 12.25,11.5 C10.7312169,11.5 9.5,10.2687831 9.5,8.75 C9.5,7.23121694 10.7312169,6 12.25,6 Z" id="Path" fill="#6E6D7A"></path></g></g>
-</svg>
+                        <img src="images/user.jpeg" class="rounded-circle" width="50px" height="50px""/>
                          metro kein
                       </h5>
                       <small>3 days ago</small>
@@ -198,15 +194,10 @@
                     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                     <small>Donec id elit non mi porta.</small>
                   </a>
-                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f1f8ff; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" style="background:#f8fafd; border-left: 0px !important;border-right: 0px !important;border-radius:0px !important">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">
-                        <svg class="sidebar-options-img" width="20px" height="20px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="page-settings" fill-rule="nonzero">
-<path class="both-d-o not-custom-fill" d="M16,0 C20.418278,0 24,3.581722 24,8 L24,16 C24,20.418278 20.418278,24 16,24 L8,24 C3.581722,24 0,20.418278 0,16 L0,8 C0,3.581722 3.581722,0 8,0 L16,0 Z" id="Path" fill="#6E6D7A"></path>
-<path class="light-svg" d="M16,2 L8,2 C4.76160306,2 2.12242824,4.56557489 2.00413847,7.77506174 L2,8 L2,16 C2,19.2383969 4.56557489,21.8775718 7.77506174,21.9958615 L8,22 L16,22 C19.2383969,22 21.8775718,19.4344251 21.9958615,16.2249383 L22,16 L22,8 C22,4.76160306 19.4344251,2.12242824 16.2249383,2.00413847 L16,2 Z" id="Path" fill="#FFFFFF"></path>
-<path class="both-d-o both-d-l" d="M12,12.5 C15.3137085,12.5 18,14.2412037 18,16.3890873 C18,18.5369709 6,18.5369709 6,16.3890873 C6,14.2412037 8.6862915,12.5 12,12.5 Z" id="Path" fill="#6E6D7A"></path>
-<path class="both-d-o both-d-l" d="M12.25,6 C13.7687831,6 15,7.23121694 15,8.75 C15,10.2687831 13.7687831,11.5 12.25,11.5 C10.7312169,11.5 9.5,10.2687831 9.5,8.75 C9.5,7.23121694 10.7312169,6 12.25,6 Z" id="Path" fill="#6E6D7A"></path></g></g>
-</svg>
+                        <img src="images/user.jpeg" class="rounded-circle" width="50px" height="50px""/>
                          metro kein
                       </h5>
                       <small>3 days ago</small>
